@@ -1,0 +1,101 @@
+2017-12-15 00:57:59 INFO  ContextLoader:305 - Root WebApplicationContext: initialization started
+2017-12-15 00:57:59 INFO  XmlWebApplicationContext:581 - Refreshing Root WebApplicationContext: startup date [Fri Dec 15 00:57:59 CET 2017]; root of context hierarchy
+2017-12-15 00:58:00 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2017-12-15 00:58:04 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-12-15 00:58:04 INFO  Version:41 - HHH000412: Hibernate Core {4.1.0.Final}
+2017-12-15 00:58:04 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-12-15 00:58:04 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-12-15 00:58:06 INFO  Dialect:122 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-12-15 00:58:06 INFO  TransactionFactoryInitiator:68 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-12-15 00:58:06 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-15 00:58:07 INFO  HibernateTransactionManager:360 - Using DataSource [org.apache.commons.dbcp.BasicDataSource@3ffa79f1] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-15 00:58:07 INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-12-15 00:58:07 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/delete],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.delete(com.entities.Users)
+2017-12-15 00:58:07 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/list],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.getAll(com.entities.Users,int)
+2017-12-15 00:58:07 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/resultcount],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.getAll(com.entities.Users)
+2017-12-15 00:58:07 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/page],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controllers.UsersController.getPage()
+2017-12-15 00:58:07 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/saveOrUpdate],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.getSaved(com.entities.Users)
+2017-12-15 00:58:08 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Fri Dec 15 00:57:59 CET 2017]; root of context hierarchy
+2017-12-15 00:58:08 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Fri Dec 15 00:57:59 CET 2017]; root of context hierarchy
+2017-12-15 00:58:08 INFO  ContextLoader:345 - Root WebApplicationContext: initialization completed in 9359 ms
+2017-12-15 00:58:08 INFO  DispatcherServlet:489 - FrameworkServlet 'SpringMVC': initialization started
+2017-12-15 00:58:08 INFO  XmlWebApplicationContext:581 - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Dec 15 00:58:08 CET 2017]; parent: Root WebApplicationContext
+2017-12-15 00:58:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/SpringMVC-servlet.xml]
+2017-12-15 00:58:08 INFO  DispatcherServlet:508 - FrameworkServlet 'SpringMVC': initialization completed in 197 ms
+2017-12-15 00:58:27 INFO  UsersController:39 - Saving data UsersControllercom.entities.Users@b82c46e
+2017-12-15 01:04:06 INFO  XmlWebApplicationContext:982 - Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Dec 15 00:58:08 CET 2017]; parent: Root WebApplicationContext
+2017-12-15 01:04:06 INFO  XmlWebApplicationContext:982 - Closing Root WebApplicationContext: startup date [Fri Dec 15 00:57:59 CET 2017]; root of context hierarchy
+2017-12-15 01:04:17 INFO  ContextLoader:305 - Root WebApplicationContext: initialization started
+2017-12-15 01:04:18 INFO  XmlWebApplicationContext:581 - Refreshing Root WebApplicationContext: startup date [Fri Dec 15 01:04:18 CET 2017]; root of context hierarchy
+2017-12-15 01:04:18 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2017-12-15 01:04:21 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-12-15 01:04:21 INFO  Version:41 - HHH000412: Hibernate Core {4.1.0.Final}
+2017-12-15 01:04:21 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-12-15 01:04:21 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-12-15 01:04:23 INFO  Dialect:122 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-12-15 01:04:23 INFO  TransactionFactoryInitiator:68 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-12-15 01:04:23 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-15 01:04:24 INFO  HibernateTransactionManager:360 - Using DataSource [org.apache.commons.dbcp.BasicDataSource@7ebec772] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-15 01:04:24 INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-12-15 01:04:24 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/delete],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.delete(com.entities.Users)
+2017-12-15 01:04:24 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/list],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.getAll(com.entities.Users,int)
+2017-12-15 01:04:24 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/resultcount],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.getAll(com.entities.Users)
+2017-12-15 01:04:24 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/page],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controllers.UsersController.getPage()
+2017-12-15 01:04:24 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/saveOrUpdate],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.getSaved(com.entities.Users)
+2017-12-15 01:04:25 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Fri Dec 15 01:04:18 CET 2017]; root of context hierarchy
+2017-12-15 01:04:25 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Fri Dec 15 01:04:18 CET 2017]; root of context hierarchy
+2017-12-15 01:04:25 INFO  ContextLoader:345 - Root WebApplicationContext: initialization completed in 8130 ms
+2017-12-15 01:04:25 INFO  DispatcherServlet:489 - FrameworkServlet 'SpringMVC': initialization started
+2017-12-15 01:04:25 INFO  XmlWebApplicationContext:581 - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Dec 15 01:04:25 CET 2017]; parent: Root WebApplicationContext
+2017-12-15 01:04:25 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/SpringMVC-servlet.xml]
+2017-12-15 01:04:26 INFO  DispatcherServlet:508 - FrameworkServlet 'SpringMVC': initialization completed in 183 ms
+2017-12-15 01:05:46 INFO  ContextLoader:305 - Root WebApplicationContext: initialization started
+2017-12-15 01:05:47 INFO  XmlWebApplicationContext:581 - Refreshing Root WebApplicationContext: startup date [Fri Dec 15 01:05:47 CET 2017]; root of context hierarchy
+2017-12-15 01:05:47 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2017-12-15 01:05:50 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-12-15 01:05:50 INFO  Version:41 - HHH000412: Hibernate Core {4.1.0.Final}
+2017-12-15 01:05:50 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-12-15 01:05:50 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-12-15 01:05:52 INFO  Dialect:122 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-12-15 01:05:52 INFO  TransactionFactoryInitiator:68 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-12-15 01:05:52 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-15 01:05:53 INFO  HibernateTransactionManager:360 - Using DataSource [org.apache.commons.dbcp.BasicDataSource@24baad6a] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-15 01:05:53 INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-12-15 01:05:53 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/delete],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.delete(com.entities.Users)
+2017-12-15 01:05:53 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/list],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.getAll(com.entities.Users,int)
+2017-12-15 01:05:53 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/resultcount],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.getAll(com.entities.Users)
+2017-12-15 01:05:53 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/page],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controllers.UsersController.getPage()
+2017-12-15 01:05:53 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/saveOrUpdate],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.getSaved(com.entities.Users)
+2017-12-15 01:05:54 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Fri Dec 15 01:05:47 CET 2017]; root of context hierarchy
+2017-12-15 01:05:54 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Fri Dec 15 01:05:47 CET 2017]; root of context hierarchy
+2017-12-15 01:05:54 INFO  ContextLoader:345 - Root WebApplicationContext: initialization completed in 7955 ms
+2017-12-15 01:05:54 INFO  DispatcherServlet:489 - FrameworkServlet 'SpringMVC': initialization started
+2017-12-15 01:05:54 INFO  XmlWebApplicationContext:581 - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Dec 15 01:05:54 CET 2017]; parent: Root WebApplicationContext
+2017-12-15 01:05:54 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/SpringMVC-servlet.xml]
+2017-12-15 01:05:54 INFO  DispatcherServlet:508 - FrameworkServlet 'SpringMVC': initialization completed in 233 ms
+2017-12-15 01:07:29 INFO  XmlWebApplicationContext:982 - Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Dec 15 01:05:54 CET 2017]; parent: Root WebApplicationContext
+2017-12-15 01:07:29 INFO  XmlWebApplicationContext:982 - Closing Root WebApplicationContext: startup date [Fri Dec 15 01:05:47 CET 2017]; root of context hierarchy
+2017-12-15 01:07:39 INFO  ContextLoader:305 - Root WebApplicationContext: initialization started
+2017-12-15 01:07:39 INFO  XmlWebApplicationContext:581 - Refreshing Root WebApplicationContext: startup date [Fri Dec 15 01:07:39 CET 2017]; root of context hierarchy
+2017-12-15 01:07:39 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2017-12-15 01:07:43 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-12-15 01:07:43 INFO  Version:41 - HHH000412: Hibernate Core {4.1.0.Final}
+2017-12-15 01:07:43 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-12-15 01:07:43 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-12-15 01:07:47 INFO  Dialect:122 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-12-15 01:07:47 INFO  TransactionFactoryInitiator:68 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-12-15 01:07:47 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-15 01:07:49 INFO  HibernateTransactionManager:360 - Using DataSource [org.apache.commons.dbcp.BasicDataSource@52a3d1b7] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-15 01:07:49 INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-12-15 01:07:49 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/delete],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.delete(com.entities.Users)
+2017-12-15 01:07:49 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/list],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.getAll(com.entities.Users,int)
+2017-12-15 01:07:49 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/resultcount],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.getAll(com.entities.Users)
+2017-12-15 01:07:49 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/page],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controllers.UsersController.getPage()
+2017-12-15 01:07:49 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/users/saveOrUpdate],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.controllers.UsersController.getSaved(com.entities.Users)
+2017-12-15 01:07:50 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Fri Dec 15 01:07:39 CET 2017]; root of context hierarchy
+2017-12-15 01:07:51 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Fri Dec 15 01:07:39 CET 2017]; root of context hierarchy
+2017-12-15 01:07:52 INFO  ContextLoader:345 - Root WebApplicationContext: initialization completed in 13138 ms
+2017-12-15 01:07:52 INFO  DispatcherServlet:489 - FrameworkServlet 'SpringMVC': initialization started
+2017-12-15 01:07:52 INFO  XmlWebApplicationContext:581 - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Dec 15 01:07:52 CET 2017]; parent: Root WebApplicationContext
+2017-12-15 01:07:52 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/SpringMVC-servlet.xml]
+2017-12-15 01:07:52 INFO  DispatcherServlet:508 - FrameworkServlet 'SpringMVC': initialization completed in 217 ms
